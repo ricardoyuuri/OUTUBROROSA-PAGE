@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital@1&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
+
+*{
+    margin:0 auto;
+    padding:0;
+}
+
+body{
+    background-color: #FEF1FF;
+}
+
+.wrapper{
+    width:1200px;
+    background:#FEF1FF;
+}
+header{
+    width:1200px;
+    height:150px;
+    background-color: lightpink ;
+}
+header nav{
+    width:1190px;
+    height: 30px;
+    background: #FEF1FF;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 10px;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+}
+
+.slogan{
+    text-align: center;
+    font-size: 400%;
+    font-weight: lighter;
+    padding: 30px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.galaxy{
+    width:1200px;
+    height:500px;
+    margin: 10px 0;
+}
+main{
+    width: 1200px;
+    background: darkkhaki;
+}
+.produto{
+    width:380px;
+    height: 380px;
+    background-color: lightpink;
+    float:left;
+    margin:0px 30px 30px 0px;
+}
+
+.image{
+    width:380px;
+    height: 380px;
+    float:left;
+    margin:0px 30px 30px 0px;
+}
+
+.produto:nth-child(3), .produto:nth-child(6), .produto:nth-child(9){
+    margin-right: 0;
+    background-color: lightpink;
+}
+
+footer {
+    height: 150px;
+    clear: both;
+    width: 1200px;
+    background-color: lightpink;
+}
+
+.win{
+    text-align: center;
+    font-size: 200%;
+    font-weight: lighter;
+    padding: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.feedback{
+    font-family: 'PT Serif', serif;
+    font-size: 100%;
+    margin: 10px ;
+    width: 150px;
+    text-align: center;
+    margin-left: 110px;
+}
+h2{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 200%;
+    font-weight: normal;
+}
+
